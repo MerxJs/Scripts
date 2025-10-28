@@ -80,7 +80,7 @@
 
   const htmlBlocks = [
     `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-      <span style="font-weight:bold;font-size:16px">⚙️ Панель</span>
+      <span style="font-weight:bold;font-size:16px">⚙️ Хуй</span>
       <button id="az-toggle-log" class="az-btn">📄 Лог</button>
     </div>`,
 
