@@ -1,15 +1,33 @@
+// ==UserScript==
+// @name         Автопоиск региона по номеру (улучшенный стиль)
+// @namespace    https://merxjs.github.io/
+// @version      1.0.2
+// @description  Добавляет регион рядом с номером телефона клиента с аккуратным оформлением
+// @match        https://kp-lead-centre.ru/admin/domain/customer-request/index*
+// @grant        GM_xmlhttpRequest
+// @connect      num.voxlink.ru
+// ==/UserScript==
+
 (function () {
   'use strict';
 
-  function fetchRegion(phone) {
+  function fetchRegion(phone, callback) {
     const cleanPhone = phone.replace(/\D/g, '');
-    return fetch(`http://num.voxlink.ru/get/?num=${cleanPhone}`)
-      .then(response => {
-        if (!response.ok) throw new Error('Сервер вернул ошибку');
-        return response.json();
-      })
-      .then(data => data.region || 'Регион не найден')
-      .catch(() => 'Ошибка сети');
+    GM_xmlhttpRequest({
+      method: "GET",
+      url: `http://num.voxlink.ru/get/?num=${cleanPhone}`,
+      onload: function (response) {
+        try {
+          const data = JSON.parse(response.responseText);
+          callback(data.region || "Регион не найден");
+        } catch (e) {
+          callback("Ошибка запроса");
+        }
+      },
+      onerror: function () {
+        callback("Ошибка сети");
+      }
+    });
   }
 
   function createRegionBadge(regionText) {
@@ -44,7 +62,7 @@
       if (match) {
         const phone = match[1];
         if (!block.querySelector('.region-badge')) {
-          fetchRegion(phone).then(region => {
+          fetchRegion(phone, region => {
             const badge = createRegionBadge(region);
             const phoneSpan = block.querySelector('span');
             if (phoneSpan) {
