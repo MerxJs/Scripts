@@ -1,1 +1,375 @@
-function H(N,F){const O=c();return H=function(V,o){V=V-0x19c;let s=O[V];return s;},H(N,F);}function c(){const cu=['Дата\x20и\x20время:\x20','Модерация','has','6698744dubecq','error','\x0a\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20bottom:\x2016px;\x0a\x20\x20\x20\x20right:\x2016px;\x0a\x20\x20\x20\x20background:\x20#fff;\x0a\x20\x20\x20\x20border:\x201px\x20solid\x20#ddd;\x0a\x20\x20\x20\x20border-radius:\x2012px;\x0a\x20\x20\x20\x20box-shadow:\x200\x206px\x2016px\x20rgba(0,0,0,0.1);\x0a\x20\x20\x20\x20padding:\x2016px;\x0a\x20\x20\x20\x20width:\x20280px;\x0a\x20\x20\x20\x20font-family:\x20\x27Segoe\x20UI\x27,\x20sans-serif;\x0a\x20\x20\x20\x20font-size:\x2014px;\x0a\x20\x20\x20\x20z-index:\x209999;\x0a\x20\x20','zhcCC','handledRequests','<textarea\x20id=\x22az-log\x22\x20rows=\x226\x22\x20class=\x22az-log\x22\x20readonly></textarea>','yvCfP','keydown','QEtaF','background','bnljp','toLocaleDateString','<div\x20id=\x22az-counter\x22\x20style=\x22margin-bottom:8px;font-weight:bold;color:#333\x22>\x0a\x20\x20\x20\x20\x20\x20🧮\x20Активных:\x200\x20/\x20Лимит:\x20','open','<div\x20style=\x22margin-bottom:8px\x22>\x0a\x20\x20\x20\x20\x20\x20<label>🔢\x20Лимит\x20активных:</label>\x0a\x20\x20\x20\x20\x20\x20<input\x20id=\x22az-max-active\x22\x20type=\x22number\x22\x20value=\x22','RtNuf','head','classList','trim','color','aCdkU','Информация\x20о\x20договоре\x20или\x20диспетчере\x20не\x20найдена.','toLocaleTimeString','STATUS_LABEL','text','#az-log','red','createElement','code','scrollHeight','push','включен','none','sXHKS','42xxlbtJ','processedRequests','ctcYW','YUScS','bEOLa','tEyxX','Диспетчер:\x20','a.--blank-link','68988WemyPz','href','yygdy','tr.bg-is_processing_by_me','2110hwoXee','\x0a\x20\x20\x20\x20</div>','425159dKwwzJ','1295840GftPfc','7635413410:AAGXOzN4X_cr-IdeVXI__7DujaudUF6N1M8','kZIPC','click','.col_customer_phone','size','change','scrollTop','split','♻\x20Таблица\x20обновлена','fWJtm','TYQzu','acVXu','display','538647304','MAX_ACTIVE','innerHTML','gEVlv','[АвтоЗаявки]\x20','<small\x20style=\x22display:block;color:#666;margin-top:6px\x22>👁\x20Панель:\x20скрыть/показать\x20—\x20клавиша\x20\x27Ъ\x27</small>','fSfwj','join','aLxXt','#az-auto-btn','Telegram\x20send\x20error:','Блок\x20с\x20информацией\x20не\x20найден.','QAguE','table','imQyd','<div\x20style=\x22display:flex;justify-content:space-between;align-items:center;margin-bottom:8px\x22>\x0a\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-weight:bold;font-size:16px\x22>⚙️\x20Панель</span>\x0a\x20\x20\x20\x20\x20\x20<button\x20id=\x22az-toggle-log\x22\x20class=\x22az-btn\x22>📄\x20Лог</button>\x0a\x20\x20\x20\x20</div>','VLYkZ','ouLXL','table\x20tbody\x20tr[data-key]','XsTnH','style','DXOfI','pNnqd','3ZzPpFB','contains','/admin/domain/customer-request/take-to-work?id=','SJmzd','5|3|1|0|2|4','LZtMQ','isFinite','fpDsy','#az-toggle-log','YWByt','preventDefault','body','target','\x20/\x20Лимит:\x20','getItem','📝\x20Запомнено\x20чужих\x20взятий:\x20','no-store','ISpBs','getElementById','block','cssText','выключен','bg-is_processing_by_me','add','wVxCv','HxHAR','HsfIb','forEach','RriWM','HOTKEY_CODE','GPuoc','ahsxw','39699KSaFnx','application/json','⚠\x20Ошибка\x20обновления:\x20','TpjOo','⏭\x20Лимит\x20(','\x0a\x20\x20\x20\x20.az-input\x20{\x0a\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#ccc;\x0a\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x0a\x20\x20\x20\x20\x20\x20padding:\x204px;\x0a\x20\x20\x20\x20\x20\x20margin-top:\x204px;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.az-btn\x20{\x0a\x20\x20\x20\x20\x20\x20color:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20border:\x20none;\x0a\x20\x20\x20\x20\x20\x20padding:\x206px\x208px;\x0a\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x0a\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.az-log\x20{\x0a\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20margin-top:\x208px;\x0a\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#ccc;\x0a\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x0a\x20\x20\x20\x20\x20\x20padding:\x206px;\x0a\x20\x20\x20\x20\x20\x20font-family:\x20monospace;\x0a\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20background:\x20#111;\x0a\x20\x20\x20\x20\x20\x20color:\x20#0f0;\x0a\x20\x20\x20\x20\x20\x20font-size:\x2012px;\x0a\x20\x20\x20\x20}\x0a\x20\x20','div.text-nowrap\x20small','textContent','/sendMessage','lumrN','tr[data-key=\x22','ugeDa',')\x20достигнут','includes','1|4|5|0|3|2','Пользователь\x20включил\x20режим\x20автозахвата.\x0a','parse','slice','#333','text/html','appendChild','background-color\x200.8s\x20ease','jjKJn','\x0a\x20\x20\x20\x20','CGDQt','WgIta','querySelectorAll','setItem','ipaWr','bg-is_processing_by','771911zBxxCT','querySelector','stringify','wSqXY','div','transition','NEzAI','ITtYt','#f44336','ptWXM','KeyX','16BCMzem','hXvqK','az-panel','log','wVbny','https://api.telegram.org/bot','searchParams','2621399qTWemq','value','backgroundColor','addEventListener','\x22\x20readonly\x20class=\x22az-input\x22>\x0a\x20\x20\x20\x20</div>','#az-max-active','<div\x20style=\x22margin-bottom:8px\x22>\x0a\x20\x20\x20\x20\x20\x20<label>🎯\x20Горячая\x20клавиша:</label>\x0a\x20\x20\x20\x20\x20\x20<input\x20id=\x22az-hotkey\x22\x20type=\x22text\x22\x20value=\x22','🚫\x20Авто:\x20ВЫКЛ','Режим\x20автозахвата\x20','RsNuO','.col__req_status','length','.header-user-info','\x20новых','🏁\x20Взято\x20','Iyhtk','Mfisj','TjgdZ','kmjoE','\x22\x20min=\x221\x22\x20max=\x2220\x22\x20class=\x22az-input\x22>\x0a\x20\x20\x20\x20</div>','liXIJ','catch','MDqBo'];c=function(){return cu;};return c();}(function(N,F){const q=H,O=N();while(!![]){try{const V=parseInt(q(0x1b0))/0x1+-parseInt(q(0x206))/0x2*(-parseInt(q(0x232))/0x3)+-parseInt(q(0x1bb))/0x4*(parseInt(q(0x20d))/0x5)+parseInt(q(0x1fe))/0x6*(parseInt(q(0x20c))/0x7)+-parseInt(q(0x1dc))/0x8+-parseInt(q(0x252))/0x9*(-parseInt(q(0x20a))/0xa)+parseInt(q(0x1c2))/0xb;if(V===F)break;else O['push'](O['shift']());}catch(o){O['push'](O['shift']());}}}(c,0x808f3),(function(){'use strict';const y=H,N={'kmjoE':function(n,g,e){return n(g,e);},'ISpBs':'processedRequests','NEzAI':y(0x1f5),'MDqBo':function(n){return n();},'TYQzu':function(n,g,e){return n(g,e);},'Mfisj':'POST','acVXu':y(0x253),'QEtaF':y(0x205),'sXHKS':function(n,g){return n(g);},'mRDFs':y(0x211),'hXvqK':y(0x224),'lFfqT':'#4caf50','bnljp':y(0x1b8),'HsfIb':function(n,g){return n(g);},'xPZpK':y(0x247),'wVxCv':y(0x1ce),'YWByt':y(0x258),'lumrN':function(n,g){return n>=g;},'ipaWr':function(n,g){return n+g;},'Iyhtk':y(0x226),'zhcCC':'none','pNnqd':function(n,g){return n(g);},'YUScS':function(n,g){return n>g;},'FMntL':y(0x1b4),'fSfwj':y(0x213),'JEqmy':'click','CGDQt':y(0x23a),'yygdy':function(n,g){return n===g;},'SMQXU':y(0x245),'ITtYt':y(0x1a7),'LZtMQ':'#c8f7c5','DXOfI':function(n,g,e){return n(g,e);},'QAguE':y(0x209),'yvCfP':y(0x1f6),'ahsxw':y(0x1a4),'fpDsy':'include','TpjOo':y(0x236),'SJmzd':function(n){return n();},'bEOLa':function(n,g){return n(g);},'WgIta':y(0x22d),'CRLpO':function(n,g){return n(g);},'JGNJU':function(n,g,e){return n(g,e);},'aCdkU':'handledRequests','GPuoc':function(n,g){return n(g);},'alFIC':function(n,g){return n(g);},'laCZB':'⏭\x20Нет\x20подходящих\x20заявок','liXIJ':function(n,g){return n(g);},'ouLXL':function(n,g){return n(g);},'gEVlv':function(n,g){return n-g;},'RriWM':y(0x228),'jjKJn':y(0x1a5),'imQyd':'table\x20tbody','tEyxX':'tbody','VLYkZ':function(n,g){return n&&g;},'RtNuf':y(0x216),'ptWXM':function(n){return n();},'mUtQC':function(n,g){return n(g);},'pAgYv':'_blank','ugeDa':function(n,g){return n===g;},'wSqXY':function(n){return n();},'HxHAR':y(0x1a0),'WUBHq':function(n){return n();},'TjgdZ':function(n,g,e){return n(g,e);},'ctcYW':y(0x1da),'wVbny':y(0x1ba),'kZIPC':'Quote','evLLP':function(n,g){return n(g);},'aLxXt':y(0x21b),'XsTnH':y(0x1e3)};const F={'MAX_ACTIVE':0x3,'STATUS_LABEL':N[y(0x200)],'HOTKEY_CODE':N[y(0x1bf)],'TOGGLE_PANEL_CODE':N[y(0x20f)],'REFRESH_INTERVAL':0x12c};let O=![],V,o=![];const s=n=>new Set(JSON[y(0x1a2)](localStorage[y(0x240)](n)||'[]')),Q=(n,g)=>localStorage[y(0x1ad)](n,JSON[y(0x1b2)]([...g])),u=N['evLLP'](s,y(0x1ff)),x=s(y(0x1e0)),v=()=>{const D=y;N[D(0x1d4)](Q,N[D(0x243)],u),Q(D(0x1e0),x);},f=y(0x20e),R=N[y(0x223)],U=()=>new Date()['toLocaleTimeString'](),w=n=>{const I=y;console[I(0x1be)](I(0x21f)+U()+'\x20'+n);const g=document[I(0x1b1)](N[I(0x1b6)]);g&&(g[I(0x1c3)]+='['+N[I(0x1d8)](U)+']\x20'+n+'\x0a',g[I(0x214)]=g[I(0x1f9)]);},p=n=>{const T=y;N[T(0x218)](fetch,T(0x1c0)+f+T(0x25a),{'method':N[T(0x1d2)],'headers':{'Content-Type':N[T(0x219)]},'body':JSON[T(0x1b2)]({'chat_id':R,'text':n})})[T(0x1d7)](g=>console[T(0x1dd)](T(0x225),g));},h=n=>{const C=y,g=n[C(0x1b1)](N[C(0x1e4)]);if(!g)return null;const e=N['sXHKS'](parseInt,new URL(g['href'])['searchParams']['get']('id'));return Number[C(0x238)](e)?e:null;},i=n=>{const m=y,g=n[m(0x1b1)](N['mRDFs']);return g?g[m(0x259)][m(0x1ee)]():'';},b=n=>n[y(0x1ed)][y(0x233)](y(0x1af))||n[y(0x1ed)][y(0x233)](y(0x248)),l=()=>{const c0=y,n={'RsNuO':function(a,X){const Z=H;return N[Z(0x231)](a,X);},'XjfvT':function(a,X){return N['YUScS'](a,X);}};V=document[c0(0x1f7)](N['FMntL']),V['id']=c0(0x1bd),V[c0(0x22f)][c0(0x246)]=c0(0x1de);const g=[c0(0x22a),c0(0x1c8)+F[c0(0x24f)]+c0(0x1c6),c0(0x1ea)+F[c0(0x21c)]+c0(0x1d5),c0(0x1e8)+F['MAX_ACTIVE']+'<br>\x0a\x20\x20\x20\x20\x20\x20📦\x20Всего\x20взято:\x20'+x[c0(0x212)]+c0(0x20b),'<button\x20id=\x22az-auto-btn\x22\x20class=\x22az-btn\x22\x20style=\x22background:#f44336\x22>🚫\x20Авто:\x20ВЫКЛ</button>',c0(0x1e1),c0(0x220)];V[c0(0x21d)]=g[c0(0x222)](''),document[c0(0x23d)]['appendChild'](V);const e=document[c0(0x1f7)](c0(0x22f));e[c0(0x259)]=c0(0x257),document[c0(0x1ec)][c0(0x1a6)](e),V[c0(0x1b1)](c0(0x1c7))['addEventListener'](N[c0(0x221)],a=>{const c1=c0,X=n['RsNuO'](parseInt,a[c1(0x23e)][c1(0x1c3)]);Number['isFinite'](X)&&n['XjfvT'](X,0x0)&&(F[c1(0x21c)]=X,n[c1(0x1cb)](w,'🔧\x20MAX_ACTIVE\x20обновлён:\x20'+X));}),V['querySelector'](N[c0(0x1bc)])[c0(0x1c5)](N['JEqmy'],()=>{const c2=c0;O=!O;const a=V['querySelector'](N['hXvqK']);a['textContent']=O?'✅\x20Авто:\x20ВКЛ':c2(0x1c9),a['style'][c2(0x1e5)]=O?N['lFfqT']:N[c2(0x1e6)],N['HsfIb'](w,c2(0x1ca)+(O?c2(0x1fb):N['xPZpK']));if(O){const X=document[c2(0x1b1)](N[c2(0x24a)]);if(X){const r=X[c2(0x1ac)](N[c2(0x23b)]);if(N[c2(0x25b)](r[c2(0x1cd)],0x2)){const t=r[0x0][c2(0x259)]['trim'](),k=r[0x1][c2(0x259)][c2(0x1ee)](),d=new Date(),A=d[c2(0x1e7)](),S=d[c2(0x1f2)](),W=N[c2(0x1ae)](N[c2(0x1ae)](c2(0x1a1),'Информация\x20о\x20договоре:\x20'+t+'\x0a'),c2(0x204)+k+'\x0a')+(c2(0x1d9)+A+'\x20'+S);N[c2(0x1fd)](p,W);}else N[c2(0x24c)](p,c2(0x1f1));}else N['HsfIb'](p,N[c2(0x1d1)]);}}),V['querySelector'](N[c0(0x1aa)])[c0(0x1c5)](c0(0x210),()=>{const c3=c0,a=V[c3(0x1b1)](N[c3(0x1b6)]);a['style'][c3(0x21a)]=a['style'][c3(0x21a)]===c3(0x1fc)?c3(0x245):N[c3(0x1df)];});},P=()=>{const c4=y;if(!V)return;V['style']['display']=N[c4(0x208)](V['style'][c4(0x21a)],N[c4(0x1df)])?N['SMQXU']:N[c4(0x1df)];},J=n=>{const c5=y,g=document[c5(0x1b1)](c5(0x19c)+n+'\x22]');g&&(g[c5(0x22f)][c5(0x1c4)]=N[c5(0x237)],N[c5(0x230)](setTimeout,()=>{const c6=c5;g[c6(0x22f)][c6(0x1b5)]=N[c6(0x1b7)],g[c6(0x22f)][c6(0x1c4)]='';},0x578));},Y=()=>{const c7=y,n=document[c7(0x1ac)](N[c7(0x227)])[c7(0x1cd)],g=document[c7(0x244)]('az-counter');g&&(g[c7(0x21d)]='\x0a\x20\x20\x20\x20\x20\x20Активных:\x20'+n+c7(0x23f)+F[c7(0x21c)]+c7(0x1a9),g[c7(0x22f)][c7(0x1ef)]=n>=F[c7(0x21c)]?N[c7(0x1e2)]:N[c7(0x251)]);},G=async n=>{const c8=y;if(!Number['isFinite'](n))return![];if(u[c8(0x1db)](n)||x[c8(0x1db)](n))return![];try{const g=await fetch(c8(0x234)+n,{'credentials':N[c8(0x239)]});if(g['ok']){const a=N[c8(0x255)][c8(0x215)]('|');let X=0x0;while(!![]){switch(a[X++]){case'0':N[c8(0x24c)](J,n);continue;case'1':N[c8(0x235)](v);continue;case'2':N[c8(0x24c)](w,'✅\x20Взята\x20'+n);continue;case'3':x[c8(0x249)](n);continue;case'4':return!![];case'5':u[c8(0x249)](n);continue;}break;}}}catch(r){N['bEOLa'](w,'❌\x20Ошибка\x20'+n+':\x20'+r);}return![];},j=()=>{const c9=y,n=new Set(),g=[...document['querySelectorAll'](N[c9(0x1ab)])],e=[];for(const a of g){const X=a[c9(0x1b1)](c9(0x1cc))?.[c9(0x259)]||'';if(!X[c9(0x19f)](F[c9(0x1f3)]))continue;if(b(a))continue;const r=N['pNnqd'](h,a);if(!Number['isFinite'](r))continue;if(u[c9(0x1db)](r)||x[c9(0x1db)](r))continue;const t=N['HsfIb'](i,a);if(t&&n[c9(0x1db)](t))continue;if(t)n[c9(0x249)](t);e[c9(0x1fa)](r);}return e;},E=()=>{const cc=y,n={'fWJtm':function(e,a){return N['CRLpO'](e,a);}};let g=0x0;document[cc(0x1ac)](N[cc(0x1ab)])[cc(0x24d)](e=>{const cH=cc;if(!n[cH(0x217)](b,e))return;const a=n[cH(0x217)](h,e);if(!Number[cH(0x238)](a))return;!x[cH(0x1db)](a)&&(x[cH(0x249)](a),g++);}),g&&(N['JGNJU'](Q,N[cc(0x1f0)],x),N['GPuoc'](w,cc(0x241)+g));},K=async()=>{const cN=y,n=j();if(N[cN(0x208)](n['length'],0x0)){N['alFIC'](w,N['laCZB']);return;}const g=n[0x0];await N['liXIJ'](G,g)&&N[cN(0x22c)](w,'🏁\x20Взята\x20одна\x20заявка:\x20'+g);},L=async()=>{const cF=y,n=document['querySelectorAll'](N['QAguE'])['length'],g=N[cF(0x21e)](F[cF(0x21c)],n);if(g<=0x0){N[cF(0x250)](w,cF(0x256)+F[cF(0x21c)]+cF(0x19e));return;}const e=j()[cF(0x1a3)](0x0,g);let a=0x0;for(const X of e){if(await N['HsfIb'](G,X))a++;}if(N[cF(0x201)](a,0x0))N[cF(0x1d6)](w,cF(0x1d0)+a+cF(0x1cf));},z=async()=>{const cO=y;Y();if(o)return;o=!![];try{const n=document['querySelector'](N[cO(0x24e)]);if(!n)return;const g=await fetch(location[cO(0x207)],{'credentials':N['fpDsy'],'cache':cO(0x242)});if(!g['ok'])return;const e=await g[cO(0x1f4)](),a=new DOMParser()['parseFromString'](e,N[cO(0x1a8)]),X=a[cO(0x1b1)](N[cO(0x229)]),r=n[cO(0x1b1)](N[cO(0x203)]);N[cO(0x22b)](X,r)&&(r[cO(0x21d)]=X[cO(0x21d)],w(N[cO(0x1eb)]),N[cO(0x1b9)](E),O&&await L());}catch(t){N[cO(0x231)](w,cO(0x254)+t);}finally{o=![];}},M=()=>{const cV=y,n=document[cV(0x1b1)](N['RriWM']);if(!n)return;n[cV(0x1c5)](cV(0x210),async g=>{const co=cV,a=g['target']['closest'](N[co(0x1e4)]);if(!a||!n[co(0x233)](a))return;g[co(0x23c)]();const X=N['mUtQC'](parseInt,new URL(a[co(0x207)])[co(0x1c1)]['get']('id'));await N[co(0x202)](G,X),window[co(0x1e9)](a[co(0x207)],N['pAgYv']);},{'passive':![]});};document['addEventListener'](N[y(0x22e)],n=>{const cs=y;N[cs(0x19d)](n[cs(0x1f8)],F[cs(0x24f)])&&N[cs(0x1b3)](K),N['yygdy'](n['code'],F['TOGGLE_PANEL_CODE'])&&N[cs(0x1b3)](P);});const B=()=>{const cQ=y,n=N[cQ(0x24b)]['split']('|');let g=0x0;while(!![]){switch(n[g++]){case'0':N['wSqXY'](z);continue;case'1':N['WUBHq'](l);continue;case'2':N[cQ(0x22c)](w,'✅\x20Скрипт\x20инициализирован');continue;case'3':N[cQ(0x1d3)](setInterval,z,F['REFRESH_INTERVAL']);continue;case'4':M();continue;case'5':E();continue;}break;}};N['SJmzd'](B);}()));
+// ==UserScript==
+// @name         Помошник модераций
+// @namespace    http://tampermonkey.net/
+// @version      4.3
+// @description  By MerxJS(Павел)
+// @match        https://kp-lead-centre.ru/admin/domain/customer-request/index?CRSearch%5Bid%5D=&CRSearch%5Bopened_at_dates%5D=&CRSearch%5Btype%5D=&CRSearch%5Bstatus%5D=&CRSearch%5Bstatus%5D%5B%5D=2&CRSearch%5Bcity_id%5D=&CRSearch%5Bphone%5D=&CRSearch%5Bcreated_at_dates%5D=&CRSearch%5Bclosed_at_dates%5D=&CRSearch%5Bauthor_id%5D=
+// @grant        none
+// ==/UserScript==
+
+(function () {
+  'use strict';
+
+  const CONFIG = {
+    MAX_ACTIVE: 3,
+    STATUS_LABEL: 'Модерация',
+    HOTKEY_CODE: 'KeyX',     // физическая клавиша для автозахвата
+    TOGGLE_PANEL_CODE: 'Quote', // скрыть/показать панель (Ъ / ')
+    REFRESH_INTERVAL: 300    // мс; реже = меньше нагрузка
+  };
+
+  let autoMode = false;
+  let panelEl;
+  let isRefreshing = false;
+  // --- Хранилище ---
+  const loadSet = key => new Set(JSON.parse(localStorage.getItem(key) || '[]'));
+  const saveSet = (key, set) => localStorage.setItem(key, JSON.stringify([...set]));
+  // processed — взятые в текущей сессии, handled — взятые когда-либо (включая чужими)
+  const processed = loadSet('processedRequests');
+  const handled = loadSet('handledRequests');
+  const saveAll = () => { saveSet('processedRequests', processed); saveSet('handledRequests', handled); };
+  const TELEGRAM_BOT_TOKEN = '7635413410:AAGXOzN4X_cr-IdeVXI__7DujaudUF6N1M8'; // замените на свой токен
+  const TELEGRAM_CHAT_ID = '538647304'; // замените на свой chat_id
+
+  // --- Утилиты ---
+  const now = () => new Date().toLocaleTimeString();
+  const log = msg => {
+    console.log(`[АвтоЗаявки] ${now()} ${msg}`);
+    const ta = document.querySelector('#az-log');
+    if (ta) {
+      ta.value += `[${now()}] ${msg}\n`;
+      ta.scrollTop = ta.scrollHeight;
+    }
+  };
+  const sendTelegramMessage = (message) => {
+  fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      chat_id: TELEGRAM_CHAT_ID,
+      text: message
+    })
+  }).catch(e => console.error('Telegram send error:', e));
+};
+  const getRowId = (row) => {
+    const a = row.querySelector('a.--blank-link');
+    if (!a) return null;
+    const id = parseInt(new URL(a.href).searchParams.get('id'));
+    return Number.isFinite(id) ? id : null;
+  };
+
+  const getRowPhone = (row) => {
+    // ожидаемый селектор колонки телефона
+    const cell = row.querySelector('.col_customer_phone');
+    return cell ? cell.textContent.trim() : '';
+  };
+
+  const isRowForeignProcessing = (row) =>
+    row.classList.contains('bg-is_processing_by') || row.classList.contains('bg-is_processing_by_me');
+
+  // --- Панель ---
+    const createPanel = () => {
+  panelEl = document.createElement('div');
+  panelEl.id = 'az-panel';
+  panelEl.style.cssText = `
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    padding: 16px;
+    width: 280px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    z-index: 9999;
+  `;
+
+  const htmlBlocks = [
+    `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+      <span style="font-weight:bold;font-size:16px">⚙️ Хуй</span>
+      <button id="az-toggle-log" class="az-btn">📄 Лог</button>
+    </div>`,
+
+    `<div style="margin-bottom:8px">
+      <label>🎯 Горячая клавиша:</label>
+      <input id="az-hotkey" type="text" value="${CONFIG.HOTKEY_CODE}" readonly class="az-input">
+    </div>`,
+
+    `<div style="margin-bottom:8px">
+      <label>🔢 Лимит активных:</label>
+      <input id="az-max-active" type="number" value="${CONFIG.MAX_ACTIVE}" min="1" max="20" class="az-input">
+    </div>`,
+
+    `<div id="az-counter" style="margin-bottom:8px;font-weight:bold;color:#333">
+      🧮 Активных: 0 / Лимит: ${CONFIG.MAX_ACTIVE}<br>
+      📦 Всего взято: ${handled.size}
+    </div>`,
+
+    `<button id="az-auto-btn" class="az-btn" style="background:#f44336">🚫 Авто: ВЫКЛ</button>`,
+
+    `<textarea id="az-log" rows="6" class="az-log" readonly></textarea>`,
+
+    `<small style="display:block;color:#666;margin-top:6px">👁 Панель: скрыть/показать — клавиша 'Ъ'</small>`
+  ];
+
+  panelEl.innerHTML = htmlBlocks.join('');
+  document.body.appendChild(panelEl);
+
+  // Стили по классам
+  const style = document.createElement('style');
+  style.textContent = `
+    .az-input {
+      width: 100%;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 4px;
+      margin-top: 4px;
+    }
+    .az-btn {
+      color: #fff;
+      border: none;
+      padding: 6px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+    }
+    .az-log {
+      width: 100%;
+      margin-top: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 6px;
+      font-family: monospace;
+      display: none;
+      background: #111;
+      color: #0f0;
+      font-size: 12px;
+    }
+  `;
+  document.head.appendChild(style);
+
+  // Обработчики
+  panelEl.querySelector('#az-max-active').addEventListener('change', (e) => {
+    const val = parseInt(e.target.value);
+    if (Number.isFinite(val) && val > 0) {
+      CONFIG.MAX_ACTIVE = val;
+      log(`🔧 MAX_ACTIVE обновлён: ${val}`);
+    }
+  });
+
+panelEl.querySelector('#az-auto-btn').addEventListener('click', () => {
+  autoMode = !autoMode;
+  const btn = panelEl.querySelector('#az-auto-btn');
+  btn.textContent = autoMode ? '✅ Авто: ВКЛ' : '🚫 Авто: ВЫКЛ';
+  btn.style.background = autoMode ? '#4caf50' : '#f44336';
+  log(`Режим автозахвата ${autoMode ? 'включен' : 'выключен'}`);
+
+  if (autoMode) {
+    // Получение информации о договоре и диспетчере
+    const userInfoEl = document.querySelector('.header-user-info');
+    if (userInfoEl) {
+      const smallElements = userInfoEl.querySelectorAll('div.text-nowrap small');
+      if (smallElements.length >= 2) {
+        const contractInfo = smallElements[0].textContent.trim();
+        const dispatcherInfo = smallElements[1].textContent.trim();
+
+        // Получение текущего времени и даты
+        const now = new Date();
+        const dateStr = now.toLocaleDateString(); // формат по умолчанию, можно уточнить
+        const timeStr = now.toLocaleTimeString();
+
+        const message = `Пользователь включил режим автозахвата.\n` +
+                        `Информация о договоре: ${contractInfo}\n` +
+                        `Диспетчер: ${dispatcherInfo}\n` +
+                        `Дата и время: ${dateStr} ${timeStr}`;
+
+        sendTelegramMessage(message);
+      } else {
+        sendTelegramMessage('Информация о договоре или диспетчере не найдена.');
+      }
+    } else {
+      sendTelegramMessage('Блок с информацией не найден.');
+    }
+  }
+});
+
+  panelEl.querySelector('#az-toggle-log').addEventListener('click', () => {
+    const logEl = panelEl.querySelector('#az-log');
+    logEl.style.display = logEl.style.display === 'none' ? 'block' : 'none';
+  });
+};
+
+
+  const togglePanel = () => {
+    if (!panelEl) return;
+    panelEl.style.display = (panelEl.style.display === 'none') ? 'block' : 'none';
+  };
+
+  // --- Взятие в работу ---
+  const highlightRow = (id) => {
+    const row = document.querySelector(`tr[data-key="${id}"]`);
+    if (row) {
+      row.style.backgroundColor = '#c8f7c5';
+      setTimeout(() => {
+        row.style.transition = 'background-color 0.8s ease';
+        row.style.backgroundColor = '';
+      }, 1400);
+    }
+  };
+    const updateRequestCounter = () => {
+        const activeMine = document.querySelectorAll('tr.bg-is_processing_by_me').length;
+        const counterEl = document.getElementById('az-counter');
+        if (counterEl) {
+            counterEl.innerHTML = `
+      Активных: ${activeMine} / Лимит: ${CONFIG.MAX_ACTIVE}
+    `;
+            counterEl.style.color = activeMine >= CONFIG.MAX_ACTIVE ? 'red' : '#333';
+        }
+    };
+  const takeToWork = async (id) => {
+    if (!Number.isFinite(id)) return false;
+    if (processed.has(id) || handled.has(id)) return false;
+    try {
+      const res = await fetch(`/admin/domain/customer-request/take-to-work?id=${id}`, { credentials: 'include' });
+      if (res.ok) {
+        processed.add(id);
+        handled.add(id); // навсегда исключаем
+        saveAll();
+        highlightRow(id);
+        log(`✅ Взята ${id}`);
+        return true;
+      }
+    } catch (e) {
+      log(`❌ Ошибка ${id}: ${e}`);
+    }
+    return false;
+  };
+
+  // --- Кандидаты: сверху вниз, без дублей по телефону, исключая когда-либо взятые ---
+  const getCandidates = () => { const seenPhones = new Set(); const rows = [...document.querySelectorAll('table tbody tr[data-key]')]; const list = []; for (const row of rows) { const statusText = row.querySelector('.col__req_status')?.textContent || ''; if (!statusText.includes(CONFIG.STATUS_LABEL)) continue; if (isRowForeignProcessing(row)) continue; const id = getRowId(row); if (!Number.isFinite(id)) continue; if (processed.has(id) || handled.has(id)) continue; const phone = getRowPhone(row); if (phone && seenPhones.has(phone)) continue; if (phone) seenPhones.add(phone); list.push(id); } return list; };
+
+
+  // --- Сканирование чужих взятий: заносим в handled ---
+  const scanForHandled = () => {
+    let added = 0;
+    document.querySelectorAll('table tbody tr[data-key]').forEach(row => {
+      if (!isRowForeignProcessing(row)) return;
+      const id = getRowId(row);
+      if (!Number.isFinite(id)) return;
+      if (!handled.has(id)) {
+        handled.add(id);
+        added++;
+      }
+    });
+    if (added) {
+      saveSet('handledRequests', handled);
+      log(`📝 Запомнено чужих взятий: ${added}`);
+    }
+  };
+  const processSingleRequest = async () => {
+  const ids = getCandidates();
+  if (ids.length === 0) {
+    log('⏭ Нет подходящих заявок');
+    return;
+  }
+  const id = ids[0];
+  if (await takeToWork(id)) {
+    log(`🏁 Взята одна заявка: ${id}`);
+  }
+};
+
+  // --- Обработка ---
+  const processRequests = async () => {
+    const activeMine = document.querySelectorAll('tr.bg-is_processing_by_me').length;
+    const limit = CONFIG.MAX_ACTIVE - activeMine;
+    if (limit <= 0) {
+      log(`⏭ Лимит (${CONFIG.MAX_ACTIVE}) достигнут`);
+      return;
+    }
+    const ids = getCandidates().slice(0, limit);
+    let taken = 0;
+    for (const id of ids) {
+      if (await takeToWork(id)) taken++;
+    }
+    if (taken > 0) log(`🏁 Взято ${taken} новых`);
+  };
+
+  // --- Обновление таблицы: аккуратная подмена tbody + защита от параллельных запросов ---
+  const refreshTable = async () => {
+    updateRequestCounter();
+    if (isRefreshing) return;
+    isRefreshing = true;
+    try {
+      const table = document.querySelector('table');
+      if (!table) return;
+
+      const res = await fetch(location.href, { credentials: 'include', cache: 'no-store' });
+      if (!res.ok) return;
+
+      const html = await res.text();
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+
+      const newBody = doc.querySelector('table tbody');
+      const oldBody = table.querySelector('tbody');
+
+      if (newBody && oldBody) {
+        // Подмена содержимого одним действием уменьшает перерисовки
+        oldBody.innerHTML = newBody.innerHTML;
+        log('♻ Таблица обновлена');
+        // Сразу помечаем чужие «в работе»
+        scanForHandled();
+        // Автообработка при включенном режиме
+        if (autoMode) {
+          await processRequests();
+        }
+      }
+    } catch (err) {
+      log(`⚠ Ошибка обновления: ${err}`);
+    } finally {
+      isRefreshing = false;
+    }
+  };
+
+  // --- Делегирование клика: только по ссылке в колонке ID ---
+  const bindDelegatedClicks = () => {
+    const table = document.querySelector('table');
+    if (!table) return;
+    table.addEventListener('click', async (e) => {
+      const link = e.target.closest('a.--blank-link');
+      if (!link || !table.contains(link)) return;
+      e.preventDefault();
+      const id = parseInt(new URL(link.href).searchParams.get('id'));
+      await takeToWork(id);
+      window.open(link.href, '_blank');
+    }, { passive: false });
+  };
+
+  // --- Хоткеи ---
+    document.addEventListener('keydown', e => {
+        if (e.code === CONFIG.HOTKEY_CODE) {
+            processSingleRequest(); // только одна заявка
+        }
+        if (e.code === CONFIG.TOGGLE_PANEL_CODE) {
+            togglePanel();
+        }
+    });
+
+
+  // --- Инициализация ---
+  const init = () => {
+    createPanel();
+    bindDelegatedClicks();
+    scanForHandled();  // первичный проход
+    refreshTable();    // первичная подгрузка
+    setInterval(refreshTable, CONFIG.REFRESH_INTERVAL);
+    log('✅ Скрипт инициализирован');
+  };
+
+  // Запуск
+  init();
+})();
