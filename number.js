@@ -1,23 +1,15 @@
 (function () {
   'use strict';
 
-  function fetchRegion(phone, callback) {
+  function fetchRegion(phone) {
     const cleanPhone = phone.replace(/\D/g, '');
-    GM_xmlhttpRequest({
-      method: "GET",
-      url: `http://num.voxlink.ru/get/?num=${cleanPhone}`,
-      onload: function (response) {
-        try {
-          const data = JSON.parse(response.responseText);
-          callback(data.region || "Регион не найден");
-        } catch (e) {
-          callback("Ошибка запроса");
-        }
-      },
-      onerror: function () {
-        callback("Ошибка сети");
-      }
-    });
+    return fetch(`http://num.voxlink.ru/get/?num=${cleanPhone}`)
+      .then(response => {
+        if (!response.ok) throw new Error('Сервер вернул ошибку');
+        return response.json();
+      })
+      .then(data => data.region || 'Регион не найден')
+      .catch(() => 'Ошибка сети');
   }
 
   function createRegionBadge(regionText) {
@@ -52,7 +44,7 @@
       if (match) {
         const phone = match[1];
         if (!block.querySelector('.region-badge')) {
-          fetchRegion(phone, region => {
+          fetchRegion(phone).then(region => {
             const badge = createRegionBadge(region);
             const phoneSpan = block.querySelector('span');
             if (phoneSpan) {
