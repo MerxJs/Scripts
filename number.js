@@ -1,6 +1,37 @@
+// ==UserScript==
+// @name         Автопоиск региона
+// @namespace    https://merxjs.github.io/
+// @version      1.0.3
+// @description  Добавляет регион рядом с номером телефона
+// @match        https://kp-lead-centre.ru/admin/domain*
+// @grant        GM_xmlhttpRequest
+// @connect      num.voxlink.ru
+// ==/UserScript==
+
 (function () {
   'use strict';
 
+  // Глобальная функция для запроса региона
+  window.fetchRegion = function (phone, callback) {
+    const cleanPhone = phone.replace(/\D/g, '');
+    GM_xmlhttpRequest({
+      method: "GET",
+      url: `http://num.voxlink.ru/get/?num=${cleanPhone}`,
+      onload: function (response) {
+        try {
+          const data = JSON.parse(response.responseText);
+          callback(data.region || "Регион не найден");
+        } catch (e) {
+          callback("Ошибка запроса");
+        }
+      },
+      onerror: function () {
+        callback("Ошибка сети");
+      }
+    });
+  };
+
+  // Вставка региона рядом с номером
   function createRegionBadge(regionText) {
     const badge = document.createElement('span');
     badge.className = 'region-badge';
@@ -47,6 +78,7 @@
     });
   }
 
+  // Наблюдатель за появлением блока с телефоном
   const observer = new MutationObserver(() => {
     const infoBlock = document.getElementById('customerInfo');
     if (infoBlock) {
