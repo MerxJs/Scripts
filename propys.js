@@ -5,7 +5,7 @@
     const container = document.createElement('div');
     container.id = 'clipboard-numbers-container';
     container.innerHTML = `
-        <div class="cn-header">📋 Вернуть</div>
+        <div class="cn-header">📋 Номера из буфера</div>
         <div class="cn-body"><em>Ожидаем загрузку...</em></div>
         <button class="cn-button">🔗 Открыть все номера</button>
     `;
