@@ -1,12 +1,3 @@
-// ==UserScript==
-// @name         Помошник модераций
-// @namespace    http://tampermonkey.net/
-// @version      4.3
-// @description  By MerxJS(Павел)
-// @match        https://kp-lead-centre.ru/admin/domain/customer-request/index?CRSearch%5Bid%5D=&CRSearch%5Bopened_at_dates%5D=&CRSearch%5Btype%5D=&CRSearch%5Bstatus%5D=&CRSearch%5Bstatus%5D%5B%5D=2&CRSearch%5Bcity_id%5D=&CRSearch%5Bphone%5D=&CRSearch%5Bcreated_at_dates%5D=&CRSearch%5Bclosed_at_dates%5D=&CRSearch%5Bauthor_id%5D=
-// @grant        none
-// ==/UserScript==
-
 (function () {
   'use strict';
 
