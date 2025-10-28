@@ -1,7 +1,4 @@
-(function () {
-  'use strict';
-
-  function createRegionBadge(regionText) {
+ function createRegionBadge(regionText) {
     const badge = document.createElement('span');
     badge.className = 'region-badge';
     badge.textContent = regionText;
@@ -56,4 +53,3 @@
   });
 
   observer.observe(document.body, { childList: true, subtree: true });
-})();
