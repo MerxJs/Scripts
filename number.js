@@ -1,13 +1,3 @@
-// ==UserScript==
-// @name         Автопоиск региона по номеру (улучшенный стиль)
-// @namespace    https://merxjs.github.io/
-// @version      1.0.2
-// @description  Добавляет регион рядом с номером телефона клиента с аккуратным оформлением
-// @match        https://kp-lead-centre.ru/admin/domain/customer-request/index*
-// @grant        GM_xmlhttpRequest
-// @connect      num.voxlink.ru
-// ==/UserScript==
-
 (function () {
   'use strict';
 
