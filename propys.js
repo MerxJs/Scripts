@@ -7,7 +7,7 @@
     container.innerHTML = `
         <div class="cn-header">📋 Номера из буфера</div>
         <div class="cn-body"><em>Ожидаем загрузку...</em></div>
-        <button class="cn-button">🔗 Открыть все номера</button>
+        <button class="cn-button">🔗 ХУй</button>
     `;
     document.body.appendChild(container);
 
