@@ -81,21 +81,21 @@
   const htmlBlocks = [
     `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
       <span style="font-weight:bold;font-size:16px">⚙️ Хуй</span>
-      <button id="az-toggle-log" class="az-btn">📄 Лог</button>
+      <button id="az-toggle-log" class="az-btn">📄 ХУй</button>
     </div>`,
 
     `<div style="margin-bottom:8px">
-      <label>🎯 Горячая клавиша:</label>
+      <label>🎯 ХУй:</label>
       <input id="az-hotkey" type="text" value="${CONFIG.HOTKEY_CODE}" readonly class="az-input">
     </div>`,
 
     `<div style="margin-bottom:8px">
-      <label>🔢 Лимит активных:</label>
+      <label>🔢 ХУй:</label>
       <input id="az-max-active" type="number" value="${CONFIG.MAX_ACTIVE}" min="1" max="20" class="az-input">
     </div>`,
 
     `<div id="az-counter" style="margin-bottom:8px;font-weight:bold;color:#333">
-      🧮 Активных: 0 / Лимит: ${CONFIG.MAX_ACTIVE}<br>
+      🧮 Активных: 0 / ХУй: ${CONFIG.MAX_ACTIVE}<br>
       📦 Всего взято: ${handled.size}
     </div>`,
 
