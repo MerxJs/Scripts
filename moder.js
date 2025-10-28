@@ -1,12 +1,3 @@
-(function () {
-  'use strict';
-  const CONFIG = {
-    MAX_ACTIVE: 3,
-    STATUS_LABEL: 'Модерация',
-    HOTKEY_CODE: 'KeyX',     // физическая клавиша для автозахвата
-    TOGGLE_PANEL_CODE: 'Quote', // скрыть/показать панель (Ъ / ')
-    REFRESH_INTERVAL: 100     // мс; реже = меньше нагрузка
-  };
 
   let autoMode = false;
   let panelEl;
