@@ -100,7 +100,7 @@
       📦 Всего взято: ${handled.size}
     </div>`,
 
-    
+    `<button id="az-auto-btn" class="az-btn" style="background:#f44336">🚫 Авто: ВЫКЛ</button>`,
 
     `<textarea id="az-log" rows="6" class="az-log" readonly></textarea>`,
 
