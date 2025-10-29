@@ -117,7 +117,7 @@
 
             phoneNumbers.forEach(number => {
                 const link = document.createElement('a');
-                link.href = `https://mnc-lead-centre.ru/admin/domain/customer-request/index*?phone=${encodeURIComponent(number)}`;
+                link.href = `https://bt-lead-centre.ru/admin/domain/customer-request/index*?phone=${encodeURIComponent(number)}`;
                 link.textContent = number;
                 link.target = '_blank';
                 body.appendChild(link);
@@ -130,7 +130,7 @@
 
     container.querySelector('.cn-button').onclick = () => {
         currentNumbers.forEach(number => {
-            const url = `https://mnc-lead-centre.ru/admin/domain/customer-request/index?phone=${encodeURIComponent(number)}`;
+            const url = `https://bt-lead-centre.ru/admin/domain/customer-request/index?phone=${encodeURIComponent(number)}`;
             window.open(url, '_blank');
         });
     };
