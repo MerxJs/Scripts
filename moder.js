@@ -100,8 +100,6 @@
       📦 Всего взято: ${handled.size}
     </div>`,
 
-    `<button id="az-auto-btn" class="az-btn" style="background:#f44336">🚫 Авто: ВЫКЛ</button>`,
-
     `<textarea id="az-log" rows="6" class="az-log" readonly></textarea>`,
 
     `<small style="display:block;color:#666;margin-top:6px">👁 Панель: скрыть/показать — клавиша 'Ъ'</small>`
@@ -153,41 +151,6 @@
     }
   });
 
-panelEl.querySelector('#az-auto-btn').addEventListener('click', () => {
-  autoMode = !autoMode;
-  const btn = panelEl.querySelector('#az-auto-btn');
-  btn.textContent = autoMode ? '✅ Авто: ВКЛ' : '🚫 Авто: ВЫКЛ';
-  btn.style.background = autoMode ? '#4caf50' : '#f44336';
-  log(`Режим автозахвата ${autoMode ? 'включен' : 'выключен'}`);
-
-  if (autoMode) {
-    // Получение информации о договоре и диспетчере
-    const userInfoEl = document.querySelector('.header-user-info');
-    if (userInfoEl) {
-      const smallElements = userInfoEl.querySelectorAll('div.text-nowrap small');
-      if (smallElements.length >= 2) {
-        const contractInfo = smallElements[0].textContent.trim();
-        const dispatcherInfo = smallElements[1].textContent.trim();
-
-        // Получение текущего времени и даты
-        const now = new Date();
-        const dateStr = now.toLocaleDateString(); // формат по умолчанию, можно уточнить
-        const timeStr = now.toLocaleTimeString();
-
-        const message = `Пользователь включил режим автозахвата.\n` +
-                        `Информация о договоре: ${contractInfo}\n` +
-                        `Диспетчер: ${dispatcherInfo}\n` +
-                        `Дата и время: ${dateStr} ${timeStr}`;
-
-        sendTelegramMessage(message);
-      } else {
-        sendTelegramMessage('Информация о договоре или диспетчере не найдена.');
-      }
-    } else {
-      sendTelegramMessage('Блок с информацией не найден.');
-    }
-  }
-});
 
   panelEl.querySelector('#az-toggle-log').addEventListener('click', () => {
     const logEl = panelEl.querySelector('#az-log');
